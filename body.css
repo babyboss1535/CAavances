@@ -1,0 +1,36 @@
+/* Estilos para el cuerpo */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+/* Video de fondo */
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;    
+    min-height: 100%;   
+    z-index: -1;        
+    object-fit: cover;  
+}
+
+.content {
+    position: relative; 
+    z-index: 1;         
+    color: white;      
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+}
